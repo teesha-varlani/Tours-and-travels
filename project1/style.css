@@ -1,3 +1,30 @@
-@media only screen and (max-width: 1200px){
+*{
+    padding: 0px;
+    margin: 0px;
+}
+@media only screen and (max-width: 900px){
+    .hide{
+        display: none   !important;
+       
+    }
     
+    
+}
+
+@media only screen and (max-width: 1150px){
+    .svgSize{
+        height: 25px !important;
+        width: 25px !important;
+        
+    }
+    .sfont{
+        font-size: 14px;
+    }
+    .svgSpace{
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+    .hide2{
+        display: none !important;
+    }
 }
