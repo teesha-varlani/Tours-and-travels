@@ -2,7 +2,9 @@
     padding: 0px;
     margin: 0px;
 }
-@media only screen and (max-width: 900px){
+
+/* Media queries until svg icons before section of blue colour */
+@media only screen and (max-width: 962px){
     .hide{
         display: none   !important;
        
@@ -11,7 +13,7 @@
     
 }
 
-@media only screen and (max-width: 1150px){
+@media only screen and (max-width: 1140px){
     .svgSize{
         height: 25px !important;
         width: 25px !important;
@@ -25,6 +27,69 @@
         margin: 0px !important;
     }
     .hide2{
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 954px){
+    .hide4{
+
+        display: none !important;
+    }
+    .svgMargin{
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
+}
+
+@media only screen and (max-width: 638px){
+    .hide3{
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 300px)
+{
+    .smallest{
+        display: none !important;
+    }
+}
+
+@media only screen and (min-width: 958px) {
+    .hideCity{
+        display: none !important;
+        
+        
+    }
+}
+
+
+/* media queries for next section */
+
+@media only screen and (max-width: 910px){
+    .CardHide{
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 462px){
+    .ContactCard{
+        display: none !important;
+    }
+}
+
+/* Next corousal media queries */
+
+@media only screen and (max-width: 1124px)
+{
+    .carousal2{
+        display: none !important;
+    }
+}
+
+@media only screen and (min-width: 1124px)
+{
+    .scroll{
         display: none !important;
     }
 }

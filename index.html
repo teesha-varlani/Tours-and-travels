@@ -85,9 +85,48 @@
     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
   </div>
 
+  <!-- For responsive elements -->
+  <h5 style="text-align: center;">Highest Saveing Packages</h5>
+  <div class=" hideCity d-flex flex-row justify-content-center align-items-center">
+    
+    <div class="mx-3 circle hideCity" style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+      <div class="images" >
+        <img src="https://source.unsplash.com/25x25/?nature,Travels" alt="" style="height: 35px; width: 35px; border-radius: 90px;">
+      </div>
+      <div class="para">
+        <h6>Goa</h6>
+      </div>
+    </div>
+    <div class=" mx-3 circle hideCity" style="display: flex; justify-content: center; align-items: center; flex-direction: column;" >
+    
+      <div class="images" >
+        <img src="https://source.unsplash.com/25x25/?nature,Travels" alt="" style="height: 35px; width: 35px; border-radius: 90px;">
+      </div>
+      <div class="para">
+        <h6>Manali</h6>
+      </div>
+    </div>
+    <div class=" mx-3 circle hideCity " style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+      <div class="images" >
+        <img src="https://source.unsplash.com/25x25/?nature,Travels" alt="" style="height: 35px; width: 35px; border-radius: 90px;">
+      </div>
+      <div class="para">
+        <h6>Jaipur</h6>
+      </div>
+    </div>
+    <div class="mx-3 smallest circle hideCity" style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+      <div class="images" >
+        <img src="https://source.unsplash.com/25x25/?nature,Travels" alt="" style="height: 35px; width: 35px; border-radius: 90px;">
+      </div>
+      <div class="para">
+        <h6>Kashmir</h6>
+      </div>
+    </div>
+  </div>
+
   <!-- Corousal Images boxes -->
 
-  <div id="carouselExampleCaptions" class="carousel slide hide" data-bs-ride="carousel">
+  <div id="carouselExampleCaptions" class="carousel slide hide4 " data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
         aria-current="true" aria-label="Slide 1"></button>
@@ -101,8 +140,8 @@
         <img src="https://source.unsplash.com/1400x400/?nature,Travels" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <div class="d-flex flex-column justify-content-center aligh-items-center">
-            <h1>Welcome to your Paradise!</h1>
-            <br class="hide"> <br class="hide"> <br>
+            <h2>Welcome to your Paradise!</h2>
+            <br class="hide"> <br class="hide"> 
             <div class="d-flex flex-row justify-content-center aligh-items-center">
 
               <div class=" card mx-5"
@@ -110,7 +149,7 @@
                 <div class="card-body">
                   <h5 class="card-title">LUXUARY PACKAGES</h5>
                   <h6 class="card-subtitle mb-2 text-muted">All in one packages</h6>
-                  <p class="hide card-text">INTERNATIONAL, INCLUDES TRAVEL GUIDE</p>
+                  <p class="hide hide2 card-text">INTERNATIONAL, INCLUDES TRAVEL GUIDE</p>
 
                 </div>
               </div>
@@ -120,7 +159,7 @@
                 <div class="card-body">
                   <h5 class="card-title">PREMIUM PACKAGES </h5>
                   <h6 class="  card-subtitle mb-2 text-muted">All in one packages</h6>
-                  <p class="hide card-text">INTERNATIONAL AND DOMESTIC</p>
+                  <p class="hide hide2 card-text">INTERNATIONAL AND DOMESTIC</p>
                 </div>
               </div>
 
@@ -129,7 +168,7 @@
                 <div class="card-body">
                   <h5 class="card-title">GENERAL PACKAGES</h5>
                   <h6 class=" card-subtitle mb-2 text-muted">All in one packages</h6>
-                  <p class="hide card-text">DOMESTIC, AFFORDABLE, GREAT SAVINGS</p>
+                  <p class="hide hide2 card-text">DOMESTIC, AFFORDABLE, GREAT SAVINGS</p>
                 </div>
               </div>
 
@@ -167,11 +206,14 @@
     </button>
   </div>
 
-  <!-- Svg icons -->
-  <div class=" hide my-3 container d-flex flex-row justify-content-center align-items-center">
+  <!-- Feedback button -->
+  <button role="button"  aria-expanded="false" aria-controls="QSIFeedbackButton-target-container" style="position: fixed; visibility: visible; cursor: pointer; border: none; background-color: transparent; padding: 0px; margin: 0px; bottom: 239px; left: 1242px; width: 35px; transition: all 0.5s ease 0s;"><div style="background: rgb(255, 102, 0); color: rgb(255, 255, 255); padding: 10px; position: relative; font-size: 15px; display: flex; flex-direction: row; z-index: -1; writing-mode: vertical-rl; transform: rotateZ(180deg); border-top-right-radius: 2px; border-bottom-right-radius: 2px;"><div><div style="transform: rotate(90deg); top: 0px; margin: 0px 0px 5px;"><svg width="13" height="15" viewport="0 0 13 15"><path d="M11.8182 0H1.18182C0.529118 0 0 0.610521 0 1.36364V13.6364C0 14.3895 0.529118 15 1.18182 15H11.8182C12.4709 15 13 14.3895 13 13.6364V1.36364C13 0.610521 12.4709 0 11.8182 0Z" fill="#FFFFFF"></path><path d="M3.11869 4.01514H9.88131" stroke="#ff6600" strokeLinecap="round" strokeLinejoin="round"></path><path d="M3.11869 7.65151H9.88131" stroke="#ff6600" strokeLinecap="round" strokeLinejoin="round"></path><path d="M3.11869 11.2879H9.88131" stroke="#ff6600" strokeLinecap="round" strokeLinejoin="round"></path></svg></div></div><div>Feedback</div></div></button><button role="button" id="QSIFeedbackButton-btn" aria-expanded="false" aria-controls="QSIFeedbackButton-target-container" style="position: fixed; visibility: visible; cursor: pointer; border: none; background-color: transparent; padding: 0px; margin: 0px; bottom: 239px; left: 1242px; width: 35px; transition: all 0.5s ease 0s;"><div style="background: rgb(255, 102, 0); color: rgb(255, 255, 255); padding: 10px; position: relative; font-size: 15px; display: flex; flex-direction: row; z-index: -1; writing-mode: vertical-rl; transform: rotateZ(180deg); border-top-right-radius: 2px; border-bottom-right-radius: 2px;"><div><div style="transform: rotate(90deg); top: 0px; margin: 0px 0px 5px;"><svg width="13" height="15" viewport="0 0 13 15"><path d="M11.8182 0H1.18182C0.529118 0 0 0.610521 0 1.36364V13.6364C0 14.3895 0.529118 15 1.18182 15H11.8182C12.4709 15 13 14.3895 13 13.6364V1.36364C13 0.610521 12.4709 0 11.8182 0Z" fill="#FFFFFF"></path><path d="M3.11869 4.01514H9.88131" stroke="#ff6600" strokeLinecap="round" strokeLinejoin="round"></path><path d="M3.11869 7.65151H9.88131" stroke="#ff6600" strokeLinecap="round" strokeLinejoin="round"></path><path d="M3.11869 11.2879H9.88131" stroke="#ff6600" strokeLinecap="round" strokeLinejoin="round"></path></svg></div></div><div>Feedback</div></div></button><button role="button" id="QSIFeedbackButton-btn" aria-expanded="false" aria-controls="QSIFeedbackButton-target-container" style="position: fixed; visibility: visible; cursor: pointer; border: none; background-color: transparent; padding: 0px; margin: 0px; bottom: 239px; left: 1242px; width: 35px; transition: all 0.5s ease 0s;"><div style="background: rgb(255, 102, 0); color: rgb(255, 255, 255); padding: 10px; position: relative; font-size: 15px; display: flex; flex-direction: row; z-index: -1; writing-mode: vertical-rl; transform: rotateZ(180deg); border-top-right-radius: 2px; border-bottom-right-radius: 2px;"><div><div style="transform: rotate(90deg); top: 0px; margin: 0px 0px 5px;"><svg width="13" height="15" viewport="0 0 13 15"><path d="M11.8182 0H1.18182C0.529118 0 0 0.610521 0 1.36364V13.6364C0 14.3895 0.529118 15 1.18182 15H11.8182C12.4709 15 13 14.3895 13 13.6364V1.36364C13 0.610521 12.4709 0 11.8182 0Z" fill="#FFFFFF"></path><path d="M3.11869 4.01514H9.88131" stroke="#ff6600" strokeLinecap="round" strokeLinejoin="round"></path><path d="M3.11869 7.65151H9.88131" stroke="#ff6600" strokeLinecap="round" strokeLinejoin="round"></path><path d="M3.11869 11.2879H9.88131" stroke="#ff6600" strokeLinecap="round" strokeLinejoin="round"></path></svg></div></div><div>Feedback</div></div></button>
 
-    <button type="button" class="svgSpace btn hide btn-light mx-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
-      <div class="box d-flex flex-column justify-content-center align-items-center mx-5">
+  <!-- Svg icons -->
+  <div class="  my-3 container d-flex flex-row justify-content-center align-items-center">
+
+    <button type="button" class="hide3 svgSpace btn  btn-light mx-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      <div class=" box d-flex flex-column justify-content-center align-items-center mx-3">
 
         <svg class="svgSize" width="50" height="50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="sc-dlfnbm cfDJuz">
           <path fill-rule="evenodd"
@@ -182,8 +224,8 @@
       </div>
     </button>
 
-    <button type="button" class="svgSpace btn hide btn-light mx-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
-      <div class="box d-flex flex-column justify-content-center align-items-center mx-5">
+    <button type="button" class="smallest svgSpace btn  btn-light mx-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      <div class=" box d-flex flex-column justify-content-center align-items-center mx-3">
         <svg class="svgSize" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-calendar3"
           viewBox="0 0 16 16">
           <path
@@ -195,8 +237,8 @@
       </div>
     </button>
 
-    <button type="button" class="btn  hide btn-light mx-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
-      <div class="box d-flex flex-column justify-content-center align-items-center mx-5">
+    <button type="button" class="btn   btn-light mx-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      <div class=" box d-flex flex-column justify-content-center align-items-center mx-3">
 
         <svg class="svgSize" width="50" height="50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="sc-dlfnbm cfDJuz">
           <path fill-rule="evenodd"
@@ -207,8 +249,8 @@
       </div>
     </button>
 
-    <button type="button" class="btn hide btn-light mx-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
-      <div class="box d-flex flex-column justify-content-center align-items-center mx-5">
+    <button type="button" class="btn  btn-light mx-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      <div class=" box d-flex flex-column justify-content-center align-items-center mx-3">
         <svg class="svgSize" width="50" height="50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="sc-dlfnbm LqGim">
           <path fill-rule="evenodd"
             d="M7 2.18a1 1 0 0 1 .164.014l10 1.667a1 1 0 0 1 .836.986V11L21 11a1 1 0 0 1 1 1v10h-8v-5a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v5H6V3.18a1 1 0 0 1 1-1zM5 10v12H2V11a1 1 0 0 1 1-1h2zm16 7h-3v1h3v-1zm0-3h-3v1h3v-1zm-9.5-4H9v2.5h1.01V11h1.49v-1zm4 0H13v2.5h1.01V11h1.49v-1zm-4-4H9v2.5h1.01V7h1.49V6zm4 0H13v2.5h1.01V7h1.49V6z">
@@ -222,8 +264,8 @@
       </div>
     </button>
 
-    <button type="button" class="btn btn-light hide mx-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
-      <div class="box d-flex flex-column justify-content-center align-items-center mx-5">
+    <button type="button" class="hide3 btn btn-light mx-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      <div class=" box d-flex flex-column justify-content-center align-items-center mx-3">
         <svg class="svgSize" width="50" height="50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="sc-dlfnbm LqGim">
           <path fill-rule="evenodd"
             d="M12 2c5.523 0 10 4.477 10 10 0 5.43-4.327 9.848-9.72 9.996L12 22a10 10 0 0 1-9-5.637l-.08-.169A9.963 9.963 0 0 1 2 12C2 6.477 6.477 2 12 2zm-.5 12h-3v4h3v-4zm4 0h-3v4h3v-4zm-4-5c-1.624.274-2.84 1.632-2.985 3.272l-.012.19L8.5 13h3V9zm1 0v4h3v-.508l-.01-.193c-.129-1.593-1.265-2.917-2.796-3.261L12.5 9zM12 3.5a8.5 8.5 0 0 0-8.485 9.014L12 4.5l8.485 8.013A8.5 8.5 0 0 0 12 3.5z">
@@ -286,7 +328,7 @@
     </div>
 
     <!-- Cards [Domestic] -->
-    <div class="container d-flex flex-row justify-content-center align-items-center">
+    <div class="container1 d-flex flex-row justify-content-center align-items-center">
 
       <div class="card my-1 mx-1" style=" border: 2px solid grey;width: 27rem; height: 16rem; color:rgb(238, 97, 16);">
         <img src="https://source.unsplash.com/60x20/?Newyork" class="card-img-top" alt="...">
@@ -311,7 +353,7 @@
         </div>
       </div>
 
-      <div class="card my-1 mx-5" style="width: 16rem; height: 16rem;">
+      <div class="CardHide card my-1 mx-5" style="width: 16rem; height: 16rem;">
 
         <div class="card-body"
           style="border: 2px solid rgb(238, 97, 16); background-color: rgb(34, 31, 31); color: beige;">
@@ -326,7 +368,7 @@
     <!-- ///////////////////////////// -->
 
 
-    <div class="container d-flex flex-row justify-content-center align-items-center">
+    <div class="container2 d-flex flex-row justify-content-center align-items-center">
 
       <div class="card my-1 mx-1"
         style=" border: 2px solid grey;width: 27rem; width: 27rem; height: 16rem; color:rgb(238, 97, 16);">
@@ -334,7 +376,7 @@
         <div class="card-body">
           <h5 class="card-title">Goa</h5>
           Starts from 18,000/- Rs
-          <a href="#" class="btn btn" style="background-color: rgb(238, 97, 16);">Go somewhere</a>
+          <a href="#" class="btn btn" style="background-color: rgb(238, 97, 16);">View more</a>
         </div>
       </div>
 
@@ -344,11 +386,11 @@
         <div class="card-body">
           <h5 class="card-title">Manali</h5>
           Starts from 15,000/- Rs
-          <a href="#" class="btn" style="background-color: rgb(238, 97, 16);">Go somewhere</a>
+          <a href="#" class="btn" style="background-color: rgb(238, 97, 16);">View more</a>
         </div>
       </div>
 
-      <div class="card my-1 mx-5" style="width: 16rem; height: 16rem;">
+      <div class="CardHide card my-1 mx-5" style="width: 16rem; height: 16rem;">
 
         <div class="card-body" style=" border: 2px solid grey; background-color: rgb(238, 97, 16); color: beige;">
           <h5 class="card-title">Reach Us now for your query</h5>
@@ -361,7 +403,7 @@
     <!-- /////////////////////////// -->
 
     <div class="container d-flex flex-row justify-content-center align-items-center">
-      <div class="card my-1 mx-3" style="width: 16rem; height: 16rem;">
+      <div class="ContactCard  card my-1 mx-3" style="width: 16rem; height: 16rem;">
 
         <div class="card-body"
           style="border-radius: 5px; border: 2px solid rgb(238, 97, 16); background-color: rgb(34, 31, 31); color: beige;">
@@ -381,9 +423,9 @@
         </div>
       </div>
 
-      <div class="card my-1 mx-3" style="width: 16rem; height: 16rem;">
+      <div class=" ContactCard card my-1 mx-3" style="width: 16rem; height: 16rem;">
 
-        <div class="card-body"
+        <div class=" card-body"
           style="border-radius: 5px; border: 2px solid rgb(238, 97, 16); background-color: rgb(34, 31, 31); color: beige;">
           <h5 class="card-title">Reach Us now for your query</h5>
           <p class="card-text">paradisehotels@gmail.com</p>
@@ -395,7 +437,7 @@
 
   <!-- Another corousal -->
 
-  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div id="carouselExampleSlidesOnly" class="carousal2 carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="https://source.unsplash.com/1400x400/?clouds,blue,sky" class="d-block w-100" alt="...">
@@ -481,6 +523,65 @@
 
     </div>
   </div>
+
+  <!-- responsive element collapse -->
+  <section class="scroll" style="background-color: rgb(97, 97, 228);">
+  <br>
+  <h2 style="text-align: center;">Why Choose Us?</h2>
+  <p>
+    <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Flexibility</a>
+    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Savings</button>
+    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Show Both</button>
+  </p>
+  <div class="row">
+    <div class="col">
+      <div class="collapse multi-collapse" id="multiCollapseExample1">
+        <div class="card card-body">
+          Build your own low-cost holidays with the best flight and hotel deals and combinations. Have it your way!
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="collapse multi-collapse" id="multiCollapseExample2">
+        <div class="card card-body">
+          Book both products in the same process and save up to 40% on your trip! Find cheap weekend breaks and save time, it's a fact!
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+
+  <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading1">First</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading2">Second</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+          <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+          
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+    <h4 id="scrollspyHeading1">Low-cost holiday deals</h4>
+    <p>f you are searching for great prices on cheap weekend breaks in the UK or worldwide, then take a look on Opodo for your ideal flight and hotel. Everyone loves a bargain!</p>
+    <h4 id="scrollspyHeading2">Book quicker</h4>
+    <p>Organize your whole trip in just a few clicks! Quick and easy for a stress-free holiday!</p>
+    <h4 id="scrollspyHeading3">Book in a click</h4>
+    <p>The Opodo fast and powerful search engine makes searching and comparing for the cheapest flight and hotels a breeze. Simply click and compare!</p>
+    <h4 id="scrollspyHeading4">Discounts for Opodo customers</h4>
+    <p>In addition to great deals on cheap flights and hotels, exclusive discounts on short breaks across the UK and worldwide are available to Opodo customers.</p>
+    
+  </div>
+</section>
 
   <!-- Footer -->
 
